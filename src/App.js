@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero'
+ function App() {
   return (
-    <div className="App">
-      <h1 class="text-3xl text-red-700 font-bold ">
-    Hello world!
-  </h1>
-    </div>
+    <>
+     <Navbar />
+     <Hero />
+    </>
   );
 }
 
