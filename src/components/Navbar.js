@@ -29,6 +29,7 @@ const Navbar = () => {
         max-w-screen-xl 
         m-auto
         p-4
+        md:px-12
         '>
         <h1 className='text-4xl leading-tight'>De<span className='text-primaryColor'>Fi</span></h1>
         <ul className={`bg-backgroundColor 
