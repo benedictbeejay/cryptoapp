@@ -12,19 +12,33 @@ module.exports = {
       },
       colors: {
         'primaryColor': "#118c4f",
-        "backgroundColor": "#f5f8ff",
-        'border': '#eee',
+        "backgroundColor": "#eee",
+        'border': ' #f5f8ff',
         'lightBlack': '#333'
       },
       boxShadow: {
-        'navShadow': 'rgb(0 0 0 /15%) 0px 8px 24px',
+        'navShadow': 'rgb(0 0 0 /12%) 0px 8px 24px',
+        'hoverShadow': 'rgb(0 0 0 /20%) 0px 8px 24px',
       },
       maxWidth: {
         'maxWidth': 'max-width: 80%'
-      }
+      },
+      clipPath: {
+        'custom': 'polygon(0 0, 100% 5%, 100% 100%, 0 95%)',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.clip-custom': {
+          clipPath: 'polygon(0 0, 100% 5%, 100% 100%, 0 95%)',
+        },
+      }
+
+      addUtilities(newUtilities, ['responsive', 'hover'])
+    },
+  ],
 }
 
 
