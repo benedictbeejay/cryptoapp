@@ -38,7 +38,7 @@ const Featured = () => {
 
   return (
     <div className='featured flex w-full py-32 px-0 self-center items-center justify-center bg-border clip-custom'>
-      <div className='container grid sm:grid-cols-2 grid-cols-1 justify-center items-center p-4'>
+      <div className='container grid sm:grid-cols-2 grid-cols-1 justify-center items-center p-4 px-8'>
         <div className='space-y-2 flex flex-col justify-center pb-8 sm:ml-8'>
           <h2 className='text-3xl font-semibold'>
             Explore top Crypto,s Like Bitcoin, Ethereum and Dogecoin
