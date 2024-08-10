@@ -40,7 +40,7 @@ const variants = {
 
 const Signup = () => {
   return (
-    <div className='signup'>
+    <div className=''>
         <div 
          
           className=' m-auto grid sm:grid-cols-2 grid-cols-1 justify-center items-center py-12 px-4'>
