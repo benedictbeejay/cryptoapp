@@ -4,7 +4,7 @@ import {FaFacebook, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 const Footer = () => {
   return (
     <div className='footer bg-border clip-custom py-20 px-0'>
-      <div className='container sm:m-auto grid sm:grid-cols-5 grid-cols-2 justify-between p-4 '>
+      <div className='container sm:m-auto grid sm:grid-cols-5 grid-cols-2 justify-between p-4 px-8 sm:px-0 '>
         <div className='col hidden sm:flex flex-col'>
             <h1 className='text-4xl leading-tight mx-auto  font-bold'>De<span className='text-primaryColor'>Fi</span></h1>
         </div>

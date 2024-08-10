@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { useState } from 'react'
+// import { motion } from 'framer-motion'
 
 
 const Navbar = () => {
@@ -49,7 +50,7 @@ const Navbar = () => {
           flex-col 
           justify-start 
           top-20 
-          w-1/2
+          w
           sm:hidden
           ${handleMenu()}`}>
             <li className='sm:px-4 sm:py-0 sm:flex p-4 w-full border-b-2 border-border'>
