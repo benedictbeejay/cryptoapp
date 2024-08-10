@@ -72,7 +72,7 @@ const Featured = () => {
   if (error) return <div>Error: {error.message}</div>;
 
   return (
-    <div className='featured flex w-full py-32 px-0 self-center items-center justify-center bg-border clip-custom'>
+    <div className='featured flex w-full py-28 px-0 self-center items-center justify-center bg-border clip-custom mt-16'>
       <div
        
        className='container grid sm:grid-cols-2 grid-cols-1 justify-center items-center p-4 px-8'>
