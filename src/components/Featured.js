@@ -81,7 +81,7 @@ const Featured = () => {
           initial="initial"
           whileInView="animate"
           viewport={{once: true,}}
-          className='space-y-2 flex flex-col justify-center pb-8 sm:ml-8'>
+          className='space-y-2 flex flex-col justify-center pb-8 mt-8 sm:mt-0 sm:ml-8'>
           <h2 className='text-3xl font-semibold'>
             Explore top Crypto,s Like Bitcoin, Ethereum and Dogecoin
           </h2>
