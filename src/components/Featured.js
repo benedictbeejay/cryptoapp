@@ -13,10 +13,12 @@ const FadeIn = {
     animate : {
       opacity: 1,
       y: 0,
+      amount: "all",
       transition: {
         delay: 0.05,
         
-      }
+      },
+     
     }
 }
 
@@ -73,9 +75,7 @@ const Featured = () => {
 
   return (
     <div className='featured flex w-full py-28 px-0 self-center items-center justify-center bg-border clip-custom mt-20'>
-      <div
-       
-       className='container grid sm:grid-cols-2 grid-cols-1 justify-center items-center p-4 px-8'>
+      <div className='container grid sm:grid-cols-2 grid-cols-1 justify-center items-center p-4 px-8'>
         <motion.div 
           variants={FadeIn}
           initial="initial"
