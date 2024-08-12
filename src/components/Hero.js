@@ -20,23 +20,21 @@ const heroVariants = {
 
 const Hero = () => {
   return (
-    <div className='flex h-full sm:mt-8 mt-2 '>
+    <div className='flex h-full sm:mt-10 mt-16 '>
       <div className='
       grid
       md:grid-cols-2
       md:m-4
       justify-center
       items-center
-      p-3
+      
       '>
         <motion.div 
           variants={heroVariants}
           initial="initial"
           animate="animate" 
           className=' lg:px-14 lg:h-full lg:relative'>
-          <motion.div 
-            
-            className='lg:absolute lg:mr-14 lg:top-1/2 lg:-translate-y-1/2 flex-col lg:py- lg:space-y-9 md:px-0 space-y-3 sm:px-8 px-6'>
+          <motion.div className='lg:absolute lg:mr-14 lg:top-1/2 lg:-translate-y-1/2 flex-col lg:py- lg:space-y-9 md:px-0 space-y-3 sm:px-8 px-6'>
             
             <p  className=' px-3 lg:mt-2'>Buy & Sell Crypto 24/7 using your retirement account</p>
             <h1  className='
@@ -98,7 +96,7 @@ const Hero = () => {
           initial={{x: 100, opacity: 0}}
           animate={{x: 0, opacity : 1}}
           transition={{delay: 2, duration: 1 }}
-          className='right p-4 '>
+          className='right sm:p-4 '>
           <div className='img-container w-full flex'>
             <img className='m-auto max-w-maxWidth' src={Crypto} alt=''/>
           </div>
