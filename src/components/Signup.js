@@ -12,8 +12,9 @@ const slideIn = {
   animate: {
     x: 0,
     opacity : 1,
+    amount: "all",
     transition: {
-      // delay: 0.5,
+      delay: 0.5,
       duration: 1,
       // staggerChildren: 0.3,
     }
@@ -28,9 +29,10 @@ const variants = {
   },
   animate: {
     y: 0,
+    amount: "all",
     opacity: 1,
     transition : {
-      // delay : 1,
+      delay : 1,
       duration: 1,
       stagger: 0.3,
     }
